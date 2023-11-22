@@ -6,10 +6,13 @@ import youimageImg from "../assets/images/ui.jpg";
 import CoursesCard from "../layout/CoursesCard";
 import image from "../layout/image";
 import "./navbar-c.css";
-
+import "./login.jsx";
+import { useNavigate } from "react-router-dom";
 
 function Navbar() {
   const [menu, setMenu] = useState(false);
+ 
+ const navigate=useNavigate();
 
   const handleChange = () => {
     setMenu(!menu);
@@ -27,6 +30,7 @@ function Navbar() {
         
 
           </Link>
+         
         </div>
 
         <nav className="hidden md:flex gap-5 font-medium p-4 text-lg">
@@ -72,9 +76,9 @@ function Navbar() {
             smooth={true}
             duration={500}
             className="hover:text-[#539165] transition-all cursor-pointer"
-          >
+          ><div>
 
-            login
+           <button onclick={()=>{navigate('login',{replace: true})}}> login</button></div>
           </Link>
           <Link
             to="contact"

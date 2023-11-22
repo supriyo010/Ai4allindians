@@ -1,5 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router, useNavigate } from "react-router-dom";
+import { Route, BrowserRouter as Router, useNavigate } from "react-router-dom";
+
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -8,6 +9,7 @@ import Reviews from "./components/Reviews";
 import Contact from "./components/Contact";
 import login from "./components/login";
 import Footer from "./components/Footer";
+
 const App = () => {
   
   return (
@@ -35,12 +37,14 @@ const App = () => {
           <div id="contact">
             <Contact />
           </div>
+         
           <div id={login}>
             <login/>
             <button onClick={()=> navigate('login')}>
              
             </button>
           </div>
+         
         </main>
 
         <Footer/>
