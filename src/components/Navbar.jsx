@@ -20,12 +20,12 @@ function Navbar() {
 
   return (
     <div>
-      <div className="flex flex-row justify-between p-2 px-2 md:px-20 bg-white  shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
+      <div className="flex flex-row justify-between p-0 px-0 md:px-20 bg-white  shadow-[0_3px_10px_rgb(0,0,0,0.2)] relative ">
         <div>
-          <Link to="/" className=" font-semibold text-4xl p-50  cursor-pointe">
+          <Link to="/" className=" font-semibold text-4xl p-30  cursor-pointe">
             
           
-             <img src="https://media.licdn.com/dms/image/D5603AQGIf9HPUpCiSg/profile-displayphoto-shrink_800_800/0/1700487929586?e=1706140800&v=beta&t=bSP8pr6rwzw1xGW-Xw8T7tj7LttPPIwd1CS0Aw7QDbs" className="goat" /> 
+             <img src="https://media.licdn.com/dms/image/D5603AQGIf9HPUpCiSg/profile-displayphoto-shrink_800_800/0/1700487929586?e=1706140800&v=beta&t=bSP8pr6rwzw1xGW-Xw8T7tj7LttPPIwd1CS0Aw7QDbs" className="goat"  /> 
             
         
 
@@ -33,7 +33,7 @@ function Navbar() {
          
         </div>
 
-        <nav className="hidden md:flex gap-5 font-medium p-4 text-lg">
+        <nav className="hidden md:flex gap-8 font-medium p-8 text-lg ">
           <Link
             to="home"
             spy={true}
@@ -41,7 +41,7 @@ function Navbar() {
             duration={500}
             className="hover:text-[#539165] transition-all cursor-pointer"
           >
-            Home
+            HOME
           </Link>
           <Link
             to="about"
@@ -50,7 +50,7 @@ function Navbar() {
             duration={500}
             className="hover:text-[#539165] transition-all cursor-pointer"
           >
-            About
+            ABOUT
           </Link>
           <Link
             to="courses"
@@ -59,7 +59,7 @@ function Navbar() {
             duration={500}
             className="hover:text-[#539165] transition-all cursor-pointer"
           >
-            Courses
+            COURSES
           </Link>
           <Link
             to="reviews"
@@ -68,17 +68,17 @@ function Navbar() {
             duration={500}
             className="hover:text-[#539165] transition-all cursor-pointer"
           >
-            Reviews
+            REVIEWS
           </Link>
           <Link
             to="login"
             spy={true}
             smooth={true}
-            duration={500}
+            duration={600}
             className="hover:text-[#539165] transition-all cursor-pointer"
           ><div>
 
-           <button onclick={()=>{navigate('login',{replace: true})}}> login</button></div>
+           <button onclick={()=>{navigate('login',{replace: true})}}> LOGIN</button></div>
           </Link>
           <Link
             to="contact"
@@ -87,7 +87,7 @@ function Navbar() {
             duration={500}
             className="hover:text-[#539165] transition-all cursor-pointer"
           >
-            Contact
+          Ai4ALL24*7
           </Link>
         </nav>
 
@@ -107,7 +107,7 @@ function Navbar() {
           duration={500}
           className="hover:text-[#539165] transition-all cursor-pointer"
         >
-          Home
+          HOME
         </Link>
         <Link
           to="about"
@@ -125,7 +125,7 @@ function Navbar() {
           duration={500}
           className="hover:text-[#539165] transition-all cursor-pointer"
         >
-          Courses
+          COURSES
         </Link>
         <Link
           to="reviews"
@@ -134,7 +134,7 @@ function Navbar() {
           duration={500}
           className="hover:text-[#539165] transition-all cursor-pointer"
         >
-          Reviews
+          REVIEWS
         </Link>
         <Link
           to="contact"
@@ -143,7 +143,7 @@ function Navbar() {
           duration={500}
           className="hover:text-[#539165] transition-all cursor-pointer"
         >
-          Contact
+          CONTACT
         </Link>
         <Link
           to="login"
@@ -152,7 +152,7 @@ function Navbar() {
           duration={500}
           className="hover:text-[#539165] transition-all cursor-pointer"
         >
-          login
+          LOGIN
         </Link>
 
       </div>

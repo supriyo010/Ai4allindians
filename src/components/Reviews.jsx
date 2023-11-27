@@ -7,13 +7,15 @@ import img3 from "../assets/images/pic3.png";
 
 const Reviews = () => {
   return (
-    <div className=" min-h-[80vh] flex flex-col items-center justify-center md:px-32 px-5">
+    <div className=" min-h-[80vh] flex flex-col items-center justify-center md:px-20 px-4">
       <Heading title1="Our" title2="Reviews" />
 
-      <div className=" flex flex-col md:flex-row gap-5 mt-5">
+      <div className=" flex flex-col md:flex-row gap-7 mt-6">
         <ReviewCard img={img1} />
         <ReviewCard img={img2} />
         <ReviewCard img={img3} />
+        <ReviewCard img={img3} />
+       
       </div>
     </div>
   );

@@ -10,7 +10,7 @@ const Home = () => {
       <div className=" md:w-2/4 text-center">
         <h2 className=" text-5xl font-semibold leading-tight">
          <i className="glow">Knowledge with</i> 
-          <span className="text-brightGreen"><b> <i>ai4all</i></b></span>
+          <span className="text-brightGreen"><b> <i>Ai4ALL</i></b></span>
         </h2>
         <p className=" text-lightText mt-5 text-start">
           eStudy is your gateway to a world of limitless learning possibilities.
