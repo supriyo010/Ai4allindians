@@ -13,8 +13,10 @@ const About = () => {
         <img src={img} alt="img" />
       </div>
 
+
       <div className="w-full md:w-2/4 text-center space-y-2">
               <Heading title1="About" title2="Us" />
+              <h1 className="bo" ><b className="animate:front"><i>"We Deliver The Best , After Deep Researching , Eye Witnessing and Hand Crafting All the Tech-Content"</i></b></h1>
         <p className=" text-lightText"><img src="https://i.ibb.co/6HZtWYg/tinywow-profile-photo-40994231-1.png" className="png1" />
         
         <h1 className= "animate-pulse"> PRITAM MAZUMDAR<h1 className= "animate-bounce" color="red"><b><i>FOUNDER & MENTOR</i></b> </h1> </h1>
@@ -39,6 +41,7 @@ const About = () => {
 
           
         </p>
+        
        
         <Link to="contact" spy={true} smooth={true} duration={500}>
           <Button title="Contact Us" />

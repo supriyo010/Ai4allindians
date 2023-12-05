@@ -13,10 +13,10 @@ const Home = () => {
           <span className="text-brightGreen"><b> <i>Ai4ALL</i></b></span>
         </h2>
         <p className=" text-lightText mt-5 text-start">
-          eStudy is your gateway to a world of limitless learning possibilities.
-          With our cutting-edge eLearning platform, you can explore a vast
-          library of courses, from academic subjects to practical skills, all
-          designed to help you achieve your goals.
+        Our motto is : Providing The best technology free or at cheapest price
+        and Making every poors smile celebrating every diwali together with the funds we
+        recieved from your purchase.🫱🏻‍🫲🏼
+
         </p>
 
         <Link to="contact" spy={true} smooth={true} duration={500}>

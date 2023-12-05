@@ -35,6 +35,15 @@
     }
     .box{
         tab-size: 5cap;
+    }
        
 
-    }
+
+
+  .bo {
+    
+    color: #0f5518;
+    animation-name: example;
+    animation-duration: 4s;
+    font-size: large;
+  }
