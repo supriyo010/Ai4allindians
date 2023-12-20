@@ -31,13 +31,13 @@ const About = () => {
         
          
         <p className=" text-lightText"><img src="https://i.ibb.co/tZRNmQm/tinywow-profile-photo-40988806-1.png" className="png1" />
-        <h1 className= "animate-pulse">SUPRIYA GARH <h1 className= "animate-bounce" color="red"><b><i>INSIGHT ILLUMINATOR</i></b> </h1> </h1>
+        <h1 className= "animate-pulse">SUPRIYA GHAR <h1 className= "animate-bounce" color="red"><b><i>INSIGHT ILLUMINATOR</i></b> </h1> </h1>
 
           
         </p>
         <p className=" text-lightText"><img src="https://i.ibb.co/GntqScw/tinywow-profile-photo-40993588-1.png" className="png1" />
         
-        <h1 className= "animate-pulse">SABIR MALIK<h1 className= "animate-bounce" color="red"><b><i>SOCIAL MAVEN</i></b></h1> </h1>
+        <h1 className= "animate-pulse">SABIR MALLICK<h1 className= "animate-bounce" color="red"><b><i>SOCIAL MAVEN</i></b></h1> </h1>
 
           
         </p>

@@ -16,6 +16,10 @@ const CoursesCard = (props) => {
           Lorem ipsum, dolor sit amet consectetur adipisicing elit this is the
           web
           </p>
+          <p className="text-lightText text-center md:text-start">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit this is the
+          web
+          </p>
         <Button title="buy now" />
       </div>
     </div>

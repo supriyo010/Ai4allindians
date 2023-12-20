@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import login from "../components/login.jsx";
+import login from "./login/page.jsx";
 
 const Footer = () => {
   return (
