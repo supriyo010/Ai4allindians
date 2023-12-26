@@ -17,15 +17,10 @@ export default function RegisterPage(){
     return(
 <section className="mt-8">
       <h1 className="text-center text-primary text-4xl mb-4">
-        Register
+     
       </h1>
       <form className="block max-w-xs mx-auto">
-        <input type="email" placeholder="email" value={email} 
-        onChange={ev => setEmail(ev.target.value)}/>
-        <input type="password" placeholder="password"value={password}
-        onChange={ev => setPassword(ev.target.value)}/>
-        <button type="submit"> register</button>
-
+       
       </form>
       <div>
         <button></button>

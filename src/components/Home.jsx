@@ -19,19 +19,19 @@ const Home = () => {
          <i className="glow">Knowledge with</i> 
           <span className="text-brightGreen"><b> <i>Ai4ALL</i></b></span>
         </h2>
-        <p className=" text-lightText mt-5 text-start">
-        Our motto is : Providing The best technology free or at cheapest price
+        <p className=" text-lightText mt-5 text-start gap-10">
+        <b className="text-black">Our motto is :</b> Providing The best technology free or at cheapest price
         and Making every poors smile celebrating every diwali together with the funds we
         recieved from your purchase.🫱🏻‍🫲🏼
 
         </p>
 
-        <Link to="contact" spy={true} smooth={true} duration={500}>
+        <Link to="contact" spy={true} smooth={true} duration={500} className="gap-5 flex-auto">
           <Button title="Contact Us" />
         </Link>
       </div>
 
-     <div class="container">
+     <div class="container flex-auto gap-0 position-center">
       <div class="icon-image">
         <div class="icon">
           <img src={img} alt="" />

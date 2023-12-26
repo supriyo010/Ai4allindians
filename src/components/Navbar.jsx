@@ -16,6 +16,9 @@ import cou from "../assets/cou.svg";
 import hom from "../assets/hom.svg";
 import knog from "../assets/knog.svg";
 import mone from "../assets/images/mone.png";
+import wha  from "../assets/images/wha.jpg";
+import bar  from "../assets/images/barcode.jpg";
+import logo  from "../assets/images/logoo.png";
 
 
 function Navbar() {
@@ -31,12 +34,13 @@ function Navbar() {
     <div>
       <div className="flex flex-row justify-between p-0   px-0 md:px-20 bg-white  shadow-[0_3px_10px_rgb(0,0,0,0.2)]  ">
         <div>
+     
        
-          <Link to="/" className=" font-semibold text-4xl p-30  cursor-pointe">
+          <Link to="/" className=" font-semibold text-xl p-30  cursor-pointe">
             
-          
-             <img src="https://media.licdn.com/dms/image/D5603AQGIf9HPUpCiSg/profile-displayphoto-shrink_800_800/0/1700487929586?e=1706140800&v=beta&t=bSP8pr6rwzw1xGW-Xw8T7tj7LttPPIwd1CS0Aw7QDbs" className="goat"  />
-             
+          <img src={wha} className="ko py-4  px-0 "/>
+    
+             <img src={bar} alt="" />
            
           </Link> 
           
@@ -45,7 +49,7 @@ function Navbar() {
         </div>
         
       
-        <nav className="hidden md:flex gap-0 font-medium p-10 text-lg "><img src={hom} className="map" />
+        <nav className="hidden md:flex gap-0 font-medium p-10 text-lg ">
           <Link
             to="home"
             spy={true}
@@ -55,10 +59,10 @@ function Navbar() {
             
             className="hover:text-[#539165] transition-all cursor-pointer"
           >
-            HOME
+          <img src={hom} className="" />
            
           </Link>
-          <img src={abo} className="map"/>
+        
           
           <Link
             to="about"
@@ -67,11 +71,11 @@ function Navbar() {
             duration={500}
             className="hover:text-[#539165] transition-all cursor-pointer"
           >
-            ABOUT
+         <img src={abo} className=""/>
            
            
           </Link>
-          <img src={cou}   className="map"/>
+
           <Link
             to="courses"
             spy={true}
@@ -79,9 +83,10 @@ function Navbar() {
             duration={500}
             className="hover:text-[#539165] transition-all cursor-pointer"
           >
-           <h1 className="uuo"> </h1>
-           <img src={mone} alt="" />
-          </Link><img src={rev} className="map"/>
+         
+         <img src={cou} className=""/>
+          </Link>
+          
           <Link
             to="reviews"
             spy={true}
@@ -89,8 +94,8 @@ function Navbar() {
             duration={500}
             className="hover:text-[#539165] transition-all cursor-pointer"
           >
-            REVIEWS
-          </Link><img src={log} className="map"/>
+       <img src={rev} className=""/>
+          </Link>
           <Link
             to="login"
             spy={true}
@@ -100,9 +105,9 @@ function Navbar() {
           ><div>
 
           </div>
-
-          <Link href={'/LoginPage'}>Login</Link>
-          </Link><img src={log} className="map"/>
+           
+          <Link href={'/LoginPage'}></Link>
+          </Link>
           <Link
             to="contact"
             spy={true}
@@ -110,11 +115,9 @@ function Navbar() {
             duration={500}
             className="hover:text-[#539165] transition-all cursor-pointer"
           >
-          Ai4ALL24*7
+          <img src={knog} className=""/>
           </Link>
-          <Link href={'/register'} className='bg-primary text-black px-8 rounded-full'>
-        REGISTER
-          </Link>
+        
 
           
         </nav>
@@ -127,12 +130,14 @@ function Navbar() {
         </div>
      
       </div>
-  
-      <div className="god">
-             <img src={mone} alt="" className="swag px-0 py-0 inline-flex items-center item-center border-x-cyan-300 shadow-xl"/> 
-            
-             </div>
+   
         
+      <div className="god">
+  
+             <img src={mone} alt="" className="swag px-0 py-0 inline-flex items-center item-center border-x-cyan-300 shadow-xl"/> 
+             <img src={logo} className="goat" />
+             </div>
+           
         
             
       <div
