@@ -19,6 +19,8 @@ import mone from "../assets/images/mone.png";
 import wha  from "../assets/images/wha.jpg";
 import bar  from "../assets/images/barcode.jpg";
 import logo  from "../assets/images/logoo.png";
+import ai from "../assets/ai4all.svg";
+
 
 
 function Navbar() {
@@ -36,11 +38,11 @@ function Navbar() {
         <div>
      
        
-          <Link to="/" className=" font-semibold text-xl p-30  cursor-pointe">
+          <Link to="/" className=" font-semibold text-xl p-30  cursor-pointe  flex flex-col md:flex-col gap-7 mt-6">
             
-          <img src={wha} className="ko py-4  px-0 "/>
+          <img src={wha} className="ko py-4  px-0   "/>
     
-             <img src={bar} alt="" />
+             <img src={bar} alt="" className="" />
            
           </Link> 
           
@@ -130,19 +132,20 @@ function Navbar() {
         </div>
      
       </div>
-   
+      
         
-      <div className="god">
-  
-             <img src={mone} alt="" className="swag px-0 py-0 inline-flex items-center item-center border-x-cyan-300 shadow-xl"/> 
-             <img src={logo} className="goat" />
+      <div className="god flex flex-col md:flex-row gap-7 mt-6">
+      <img src={ai} className="goat px-10 py-0 inline-flex items-center item-center gap-10  flex flex-col md:flex-row gap-7 mt-6" />
+             <img src={mone} alt="" className="swag px-0 py-0 inline-flex items-center item-center "/> 
+            
              </div>
-           
+        
         
             
       <div
         className={` ${menu ? "translate-x-0" : "-translate-x-full"} md:hidden flex flex-col absolute bg-[#faf6f6] left- top-100 font-large text-10xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300 `}
-      >
+      >    
+           
         <Link
           to="home"
           spy={true}

@@ -17,12 +17,12 @@ const About = () => {
       <div className="w-full md:w-2/4 text-center space-y-2">
               <Heading title1="About" title2="Us" />
               <h1 className="bo" ><b className="animate:front"><i>"We Deliver The Best , After Deep Researching , Eye Witnessing and Hand Crafting All the Tech-Content"</i></b></h1>
-        <p className=" text-lightText"><img src="https://i.ibb.co/6HZtWYg/tinywow-profile-photo-40994231-1.png" className="png1" />
+        <p className=" text-lightText"><img src="https://i.ibb.co/7ChYGH3/profile-pic-9.png" className="png1" />
         
         <h1 className= "animate-pulse"> PRITAM MAZUMDAR<h1 className= "animate-bounce" color="red"><b><i>FOUNDER & MENTOR</i></b> </h1> </h1>
         </p>
-        <p className=" text-lightText"><img src="https://i.ibb.co/j5QFDs3/tinywow-profile-photo-40989981-2.png" className="png1" />
-          <h1 className= "animate-pulse">SHREYA MUKHERJEE<h1 className= "animate-bounce" color="red"><b><i>APP ARCHITECT</i></b> </h1> </h1>
+        <p className=" text-lightText"><img src="https://i.ibb.co/3CLC31P/tamal.png" className="png1" />
+          <h1 className= "animate-pulse">TAMAL MAITY<h1 className= "animate-bounce" color="red"><b><i>TECH ASSIST</i></b> </h1> </h1>
         </p>
 
         <p className=" text-lightText"><img src="https://avatars.githubusercontent.com/u/122034818?s=400&u=b523d382d0aab4c8cb177f1f31debf7e7d99a5e3&v=4"className="png1" />

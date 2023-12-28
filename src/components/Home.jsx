@@ -32,22 +32,7 @@ const Home = () => {
       </div>
 
      <div class="container flex-auto gap-0 position-center">
-      <div class="icon-image">
-        <div class="icon">
-          <img src={img} alt="" />
-        </div>
-        <div class="hover-image one">
-          <div class="img">
-            <img src={img} alt="" />
-          </div>
-          <div class="content">
-            <div class="details">
-              <div class="name">AI4ALL</div>
-              <div class="job"></div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
       <div class="icon-image">
         <div class="icon">
           <img src={img} alt="" />
@@ -112,22 +97,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div class="icon-image last">
-        <div class="icon">
-          <img src={img} alt="" />
-        </div>
-        <div class="hover-image one">
-          <div class="img">
-            <img src={img} alt="" />
-          </div>
-          <div class="content">
-            <div class="details">
-              <div class="name">AI4ALL</div>
-              <div class="job"></div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </div>
     </div>
   );

@@ -8,7 +8,7 @@ import About from "./components/About";
 import Courses from "./components/Courses";
 import Reviews from "./components/Reviews";
 import Contact from "./components/Contact";
-
+import New from "./components/New";
 import Footer from "./components/Footer";
 import Todo from "./components/Todo";
 import { AiOutlineLogin } from "react-icons/ai";
@@ -56,9 +56,10 @@ const App = () => {
              
        
         </main>
-
+      
         <Footer/>
-     
+        
+        <New/>
       </div>
     </Router>
     

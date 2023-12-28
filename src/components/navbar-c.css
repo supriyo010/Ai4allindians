@@ -1,8 +1,9 @@
 .goat{
    
-    width: 20%;
+    width: 30%;
     height: 50%;
     border-radius: 50%;
+    text-align: center;
 
     
 
@@ -38,7 +39,7 @@ nav-right: auto;
 
 .swag{
 height: 0%;
-    width: 30%;
+    width: 50%;
    text-align: center;
   
 }

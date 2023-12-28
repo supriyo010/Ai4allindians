@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-scroll";
 import login from "./login/page.jsx";
-
+import insta from "../assets/insta.svg";
+import "./footer.css";
+import neg from "../assets/images/neg.mp4";
 const Footer = () => {
   return (
     <div>
@@ -14,7 +16,7 @@ const Footer = () => {
             duration={500}
             className="hover:text-[#539165] transition-all cursor-pointer"
           >
-            Home
+          
           </Link>
           <Link
             to="about"
@@ -68,17 +70,19 @@ const Footer = () => {
         <div className=" mt-4 md:mt-0">
           <Link to="/" className=" font-semibold text-2xl p-1 cursor-pointer">
           Ai4ALL
+          
+      
           </Link>
+          
         </div>
+        <video controls autoPlay className="neg">
+            <source src={neg} type="" />
+          </video>
       </div>
-
-      <div className=" text-center mt-4">
-        <p>
-          @copyright developed by
-          <span className="text-brightGreen px-2">supriyo</span>|
-          All rights 
-        </p>
-      </div>
+  
+      
+     
+    
     </div>
   );
 };
