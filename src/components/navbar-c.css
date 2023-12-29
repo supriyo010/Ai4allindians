@@ -9,7 +9,12 @@
 
 }
 .ko{
-    height: 41%;
+    height: 75%;
+    width:100%;
+}
+.bar{
+    height: 61%;
+    width: 25%;
 }
 .navbar{
     height: 35%;

@@ -1,0 +1,7 @@
+.chat-bot {
+    position: flex center;
+    right: 20px;
+    bottom: 10px;
+    border: none;
+    z-index: 1000; 
+}

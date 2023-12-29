@@ -5,11 +5,16 @@ import din from "../assets/din.svg";
 import "./new.css";
 import face from "../assets/face.svg";
 import twwe from "../assets/twwe.svg";
+import map from "../assets/images/map.png";
+import pat from "../assets/pat.svg";
+import patt from "../assets/patt.svg";
 
 const New = () => {
     return (
       <footer className="bg-light text-center">
+        
         <div className="footer-container">
+            
           <div className="footer-menu flex flex-col md-flex-col">
             <ul>
               <li><a  href="https://www.instagram.com/ai4all_indians/"><img src={insta} alt="" className=" btn btn-floating m-1"/></a></li>
@@ -20,14 +25,23 @@ const New = () => {
           </div>
          
         </div>
+        
+     
+        <img align="right" src={pat} alt="" className="no py-5  px-12" />
+        
+        <img align="right" src={patt} alt="" className="no py-5  px-12" />
+        <img align="" src={map} alt="" className="mo py-5  px-12" />
+  
+        <div className=" text-center mt-4"> 
         <div className=" text-center mt-4">
-        <div className=" text-center mt-4">
+        
         <p>
           @copyright developed by
           <span className="text-brightGreen px-2">supriyo</span>|
           All rights 
         </p>
       </div>
+    
       </div>
   
         <style jsx>{`

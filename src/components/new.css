@@ -2,3 +2,20 @@
     height: 100%;
     width: 100%;
 }
+.mo{
+    height: 35%;
+    width: 35%; 
+    nav-right: auto;
+}
+.no{
+    height: 25%;
+    width: 25%; 
+
+}
+.chat-bot {
+    position: flex center;
+    right: 10px;
+    bottom: 10px;
+    border: none;
+    z-index: 1000; 
+}

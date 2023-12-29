@@ -1,11 +1,13 @@
 import React from "react";
 import Heading from "../layout/Heading";
 import CoursesCard from "../layout/CoursesCard";
+import Course from "../layout/Course";
+import Cous from "../layout/cous";
 import webImg from "../assets/web-dev.svg";
 import appImg from "../assets/App-dev.svg";
 import graphicImg from "../assets/graphic.svg";
 import digitalImg from "../assets/digital.svg";
-import youimageImg from "../assets/images/ui.jpg";
+import youimageImg from "../assets/images/ui.png";
 import video from "../assets/images/video.webm";
 import cer from "../assets/images/cer.png";
 import "./courses.css";
@@ -16,9 +18,8 @@ const Courses = () => {
 
       <div className=" flex flex-wrap justify-center gap-6 mt-6">
         <CoursesCard img={webImg} title="Web Development" />
-        <CoursesCard img={youimageImg} title="ui/ux design" />
-    
-        <CoursesCard img={appImg} title="App Development"/>
+        <Course src img={youimageImg} title="ui/ux design" />
+         <Cous img={appImg} title="App Development"/>
         <CoursesCard img={graphicImg} title="Graphic Designer" />
         <CoursesCard img={digitalImg} title="Digital Marketing" />
     

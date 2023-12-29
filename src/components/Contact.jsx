@@ -2,11 +2,12 @@ import React from "react";
 import img from "../assets/contact.svg";
 import Heading from "../layout/Heading";
 import Button from "../layout/Button";
-
+import "./contact.css";
 const Contact = () => {
   return (
     <div className=" min-h-screen flex flex-col items-center justify-center md:mx-32 mx-5 mt-10">
       <Heading title1="Contact" title2="Us" />
+      
 
       <div className=" flex flex-col md:flex-row justify-between w-full">
         <form className=" w-full md:w-2/5 space-y-5 pt-20">
@@ -46,10 +47,14 @@ const Contact = () => {
           </div>
         </form>
 
+        <iframe align="right" className="chat-bot position-fixed py-8 px-6" width="450" height="380"  allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/13847e11-c714-4911-bd7f-a8a87da92748"></iframe>
         <div className=" w-full md:w-2/4">
           <img src={img} alt="img" />
+        
         </div>
+      
       </div>
+      
     </div>
   );
 };
