@@ -10,7 +10,7 @@ const Contact = () => {
       
 
       <div className=" flex flex-col md:flex-row justify-between w-full">
-        <form className=" w-full md:w-2/5 space-y-5 pt-20">
+        <form className=" w-full md:w-3/5 space-y-5 pt-20">
           <div className=" flex flex-col">
             <label htmlFor="userName">Your Name</label>
             <input
@@ -47,7 +47,7 @@ const Contact = () => {
           </div>
         </form>
 
-        <iframe align="right" className="chat-bot position-fixed py-8 px-6" width="450" height="380"  allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/13847e11-c714-4911-bd7f-a8a87da92748"></iframe>
+        <iframe align="right" className="chat-bot position-fixed py-6 px-1" width="350" height="380"  allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/13847e11-c714-4911-bd7f-a8a87da92748"></iframe>
         <div className=" w-full md:w-2/4">
           <img src={img} alt="img" />
         
