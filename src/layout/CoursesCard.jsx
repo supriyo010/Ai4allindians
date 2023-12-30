@@ -24,7 +24,7 @@ First, you'll build a cat photo app to learn the basics of HTML and CSS. Later, 
           </p>
        
       </div>
-      <Button title="GO TO" />
+    <a href="https://www.coursera.org/courses?query=web%20deve">  <Button title="GO TO" /></a>
     </div>
   );
 };

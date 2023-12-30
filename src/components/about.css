@@ -47,3 +47,6 @@
     animation-duration: 4s;
     font-size: large;
   }
+  .animate:front{
+    display: inline;
+  }

@@ -8,6 +8,7 @@ import twwe from "../assets/twwe.svg";
 import map from "../assets/images/map.png";
 import pat from "../assets/pat.svg";
 import patt from "../assets/patt.svg";
+import hed from "../assets/images/hed.png";
 
 const New = () => {
     return (
@@ -15,7 +16,7 @@ const New = () => {
         
         <div className="footer-container">
             
-          <div className="footer-menu flex flex-col md-flex-col">
+          <div className="footer-menu flex flex-col md-flex-col ">
             <ul>
               <li><a  href="https://www.instagram.com/ai4all_indians/"><img src={insta} alt="" className=" btn btn-floating m-1"/></a></li>
               <li><a href="https://www.linkedin.com/in/ai4all-indians/"><img src={din} alt="" className=" btn btn-floating m-1"/></a></li>
@@ -23,16 +24,27 @@ const New = () => {
               <li><a href="https://twitter.com/ai4all_india"><img src={twwe} alt="" className=" btn btn-floating m-1"/></a></li>
             </ul>
           </div>
-         
+    
+        </div>
+           
+       <a href="https://maps.app.goo.gl/RVJv4vLMmtC6GY9w9"> <img align="left" src={map} alt="" className="mo  py-28 px-10 " /></a>
+       
+        <img align="center" src={hed} alt="" className="no py-2 px-0"/>
+       
+       
+        <div className="row-spa col-span-2">
+        <img align="right" src={pat} alt="" className="no py-  px-12" />
+      
+        <img align="" src={patt}  className="no py-  px-12 hover:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]" />
+     
         </div>
         
+       
      
-        <img align="right" src={pat} alt="" className="no py-5  px-12" />
         
-        <img align="right" src={patt} alt="" className="no py-5  px-12" />
-        <img align="" src={map} alt="" className="mo py-5  px-12" />
   
         <div className=" text-center mt-4"> 
+     
         <div className=" text-center mt-4">
         
         <p>

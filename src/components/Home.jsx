@@ -20,7 +20,7 @@ const Home = () => {
           <span className="text-brightGreen"><b> <i>Ai4ALL</i></b></span>
         </h2>
         <p className=" text-lightText mt-5 text-start gap-10">
-        <b className="text-black">Our motto is :</b> Providing The best technology free or at cheapest price
+        <b className="text-black">OUR MOTTO IS :</b> Providing The best technology free or at cheapest price
         and Making every poors smile celebrating every diwali together with the funds we
         recieved from your purchase.🫱🏻‍🫲🏼
 

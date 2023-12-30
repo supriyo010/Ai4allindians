@@ -34,10 +34,10 @@ function Navbar() {
 
   return (
     <div>
-      <div className="flex flex-row justify-between p-0   px-0 md:px-20 bg-white  shadow-[0_3px_10px_rgb(0,0,0,0.2)]  ">
-        <div>
+      <div className="flex flex-row justify-between  md:px-32 p-  bg-white  shadow-[0_3px_10px_rgb(0,0,0,0.2)]  ">
+        <div >
      
-        <img src={wha} className="ko py-16  px-0   "/>
+        <img src={wha} className="ko py-0  px-0   "/>
           <Link to="/" className=" font-semibold text-xl p-30  cursor-pointe  flex flex-col md:flex-col gap-7 mt-6">
             
          
@@ -50,7 +50,7 @@ function Navbar() {
         </div>
         
       
-        <nav className="hidden md:flex gap-0 font-medium p-10 text-lg ">
+        <nav className="hidden md:flex gap-6 font-large p- text-lg ">
           <Link
             to="home"
             spy={true}
@@ -118,8 +118,9 @@ function Navbar() {
           >
           <img src={knog} className=""/>
           </Link>
-          <img src={bar} alt="" className="bar px-4" />
-           
+  
+          <img src={bar} alt="" className="bar px-4 flex flex-row" />
+          
         
 
           
@@ -136,15 +137,15 @@ function Navbar() {
       
         
       <div className="god flex flex-col md:flex-row gap-7 mt-6">
-      <img src={ai} className="goat px-10 py-0 inline-flex items-center item-center " />
-             <img src={mone} alt="" className="swag px-0 py-0 inline-flex items-center item-center "/> 
+      <img src={ai} className="goat px-10 py-0 inline-flex items-center item-center  " />
+             <img src={mone} alt="" className="swag px-8 py-0 inline-flex items-center item-center  "/> 
             
              </div>
         
         
             
       <div
-        className={` ${menu ? "translate-x-0" : "-translate-x-full"} md:hidden flex flex-col absolute bg-[#faf6f6] left- top-100 font-large text-10xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300 `}
+        className={` ${menu ? "translate-x-0" : "-translate-x-full"} md:hidden flex flex-col absolute bg-[#faf6f6] left- top-100 font-large text-10xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-200 `}
       >    
            
         <Link

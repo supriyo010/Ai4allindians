@@ -3,6 +3,8 @@ import Heading from "../layout/Heading";
 import CoursesCard from "../layout/CoursesCard";
 import Course from "../layout/Course";
 import Cous from "../layout/cous";
+import Crse from "../layout/crse";
+import Cours from "../layout/cours.jsx";
 import webImg from "../assets/web-dev.svg";
 import appImg from "../assets/App-dev.svg";
 import graphicImg from "../assets/graphic.svg";
@@ -20,8 +22,8 @@ const Courses = () => {
         <CoursesCard img={webImg} title="Web Development" />
         <Course src img={youimageImg} title="ui/ux design" />
          <Cous img={appImg} title="App Development"/>
-        <CoursesCard img={graphicImg} title="Graphic Designer" />
-        <CoursesCard img={digitalImg} title="Digital Marketing" />
+        <Crse img={graphicImg} title="Graphic Designer" />
+        <Cours img={digitalImg} title="Digital Marketing" />
     
      
       </div>

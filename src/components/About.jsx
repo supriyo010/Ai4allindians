@@ -9,14 +9,21 @@ import "./about.css";
 const About = () => {
   return (
     <div className=" md:min-h-screen flex flex-col-reverse md:flex-row items-center gap-4 md:mx-41 mx-5 mt-14">
-      <div className=" w-full md:w-2/4">
+      <div className=" w-full md:w-2/4 px-8">
+     
+
         <img src={img} alt="img" />
+        <div className="he px-32 py-8 text-center space-y-2 w-full">
+        <Heading title1="About" title2="Us" /></div>
+        <div className=" flex flex-col items-center justify-between bg-[#e6f8e6] border-2 border-lightText md:border-none md:w-5/5 p-3 cursor-pointer rounded-lg hover:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] transition-all">
+      <h1 className="bo px-16" ><b className="animate:front"><i>"WE PROVIDE FREE CERTIFIED COURSES, e-BOOKS & AI TOOLS FROM TOP EXPERTS AND OTHER INTERESRTING INTERNSHIP OPPUTUNITIES WITH GOVERNMENT OF INDIA CERTIFICATIONS AND BONUS GIFTS AS WELL. DEDICATED COMMUNITY FOR ALL DOUBTS AND UPDATES OF UPCOMING EVENTS. ALSO OFFERS A FREE PLATFORM FOR ALL TEACHERS WHO WANT TO DELIVER THEIR SUBJECTS ON OUR PLATFORM AND EARN. WE ARE NON PROFIT ORGANIZATIONS DONATES ALL OUR SERVICE CHARGES TO NEEDY AND GREEDY PEOPLE AT DIWALI EVERY YEAR"</i></b></h1>
       </div>
+      </div>
+
 
 
       <div className="w-full md:w-2/4 text-center space-y-2">
               <Heading title1="About" title2="Us" />
-              <h1 className="bo" ><b className="animate:front"><i>"We Deliver The Best , After Deep Researching , Eye Witnessing and Hand Crafting All the Tech-Content"</i></b></h1>
         <p className=" text-lightText"><img src="https://i.ibb.co/7ChYGH3/profile-pic-9.png" className="png1" />
         
         <h1 className= "animate-pulse"> PRITAM MAZUMDAR<h1 className= "animate-bounce" color="red"><b><i>FOUNDER & MENTOR</i></b> </h1> </h1>

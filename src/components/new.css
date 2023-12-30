@@ -5,17 +5,12 @@
 .mo{
     height: 35%;
     width: 35%; 
-    nav-right: auto;
+    
 }
 .no{
-    height: 25%;
-    width: 25%; 
+    height: 30%;
+    width: 22%; 
+   display: inline;
+  
+}
 
-}
-.chat-bot {
-    position: flex center;
-    right: 10px;
-    bottom: 10px;
-    border: none;
-    z-index: 1000; 
-}
