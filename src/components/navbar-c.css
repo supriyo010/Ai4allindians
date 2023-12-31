@@ -1,3 +1,28 @@
+@media screen and (max-width: 700px) {	
+    .ko{
+        height: 50%;
+        width:50%;
+    }
+    .box{
+        height: 80%;
+        width: 80%;
+    }
+    .mobile{
+        height: 60%;
+        width: 80%;
+    }
+    .mobilel{
+        height: 100%;
+        width: 80%;
+    }
+    
+   
+  }
+  .bar{
+    height: 45%;
+    width: 35%;
+}
+
 .goat{
    
     width: 30%;
@@ -8,14 +33,8 @@
     
 
 }
-.ko{
-    height: 50%;
-    width:90%;
-}
-.bar{
-    height: 61%;
-    width: 25%;
-}
+
+
 .navbar{
     height: 35%;
     width: 35%;
@@ -43,8 +62,8 @@ nav-right: auto;
 }
 
 .swag{
-height: 0%;
-    width: 50%;
+height: 10%;
+    width: 800%;
    text-align: center;
   
 }
@@ -54,4 +73,7 @@ height: 0%;
     .god{
         text-align: center;
     }
-
+.box{
+    height: 65%;
+    width: 65%;
+}

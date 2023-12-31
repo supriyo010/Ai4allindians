@@ -26,12 +26,12 @@ const Home = () => {
 
         </p>
 
-        <Link to="contact" spy={true} smooth={true} duration={500} className="gap-5 flex-auto">
+        <Link to="contact" spy={true} smooth={true} duration={500} className="gap-10 flex-auto">
           <Button title="Contact Us" />
         </Link>
       </div>
 
-     <div class="container flex-auto gap-0 position-center">
+     <div class="container flex-auto gap-0 position-center px- py-">
       
       <div class="icon-image">
         <div class="icon">

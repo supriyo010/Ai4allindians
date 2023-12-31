@@ -24,37 +24,33 @@ const New = () => {
               <li><a href="https://twitter.com/ai4all_india"><img src={twwe} alt="" className=" btn btn-floating m-1"/></a></li>
             </ul>
           </div>
-    
-        </div>
-           
-       <a href="https://maps.app.goo.gl/RVJv4vLMmtC6GY9w9"> <img align="left" src={map} alt="" className="mo  py-28 px-10 " /></a>
-       
-        <img align="center" src={hed} alt="" className="no py-2 px-0"/>
-       
-       
-        <div className="row-spa col-span-2">
-        <img align="right" src={pat} alt="" className="no py-  px-12" />
       
-        <img align="" src={patt}  className="no py-  px-12 hover:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]" />
+        </div>
+        <img align="right" src={hed} alt="" className="no py- px-2 "/>
+        <div className=" flex flex-col items-center justify-between   "> 
+       <a href="https://maps.app.goo.gl/RVJv4vLMmtC6GY9w9"> <img align="left" src={map} alt="" className="mo  py-6 px-5 " />
+      
+       <img align="right" src={pat} alt="" className="no py-  px-6" />
+       <img align="right" src={patt}  className="no py-  px-6 " />
+       </a>
+    
+      
+        
      
+       
         </div>
         
-       
-     
-        
-  
-        <div className=" text-center mt-4"> 
-     
-        <div className=" text-center mt-4">
-        
+            
+        <div className=" flex flex-col items-center justify-between bg-[#f7f6f6] px-6 py-6 ">        
         <p>
           @copyright developed by
           <span className="text-brightGreen px-2">supriyo</span>|
           All rights 
         </p>
       </div>
-    
-      </div>
+     
+   
+     
   
         <style jsx>{`
           footer {
@@ -93,7 +89,9 @@ const New = () => {
             margin-top: 20px;
           }
         `}</style>
+        
       </footer>
+      
     );
   };
   

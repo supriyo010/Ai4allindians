@@ -44,10 +44,10 @@
 .container{
   height: 500px;
   display: flex;
-  min-width: 400px;
+  min-width: 300px;
   align-items: flex-end;
   justify-content: center;
-  margin-top: -55px;
+  margin-top: -25px;
 }
 .icon-image{
   position: relative;

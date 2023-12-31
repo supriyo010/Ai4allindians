@@ -56,10 +56,10 @@ const App = () => {
              
        
         </main>
-      
-        <Footer/>
         
+        <Footer/>
         <New/>
+      
       </div>
     </Router>
     

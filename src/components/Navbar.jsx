@@ -36,9 +36,12 @@ function Navbar() {
     <div>
       <div className="flex flex-row justify-between  md:px-32 p-  bg-white  shadow-[0_3px_10px_rgb(0,0,0,0.2)]  ">
         <div >
-     
-        <img src={wha} className="ko py-0  px-0   "/>
-          <Link to="/" className=" font-semibold text-xl p-30  cursor-pointe  flex flex-col md:flex-col gap-7 mt-6">
+          
+        <div className="box flex flex-col items-center justify-between   ">
+        <img src={ai} className="mobilel py-  px-0  mb-   "/>
+        <img src={mone} alt="" className="mobile px-0 py-  inline-flex items-center "/> 
+        </div>
+        <Link to="/" className=" font-semibold text-xl p-30  cursor-pointe  flex flex-col md:flex-col gap-7 mt-6">
             
          
     
@@ -117,18 +120,22 @@ function Navbar() {
             className="hover:text-[#539165] transition-all cursor-pointer"
           >
           <img src={knog} className=""/>
+          
           </Link>
   
-          <img src={bar} alt="" className="bar px-4 flex flex-row" />
+          <img src={bar} alt="" className="bar px-8 py-6 flex flex-row" />
+          
+          
           
         
 
           
         </nav>
+        
 
         <div className="flex md:hidden" onClick={handleChange}>
-          <div className=" p-2">
-            <AiOutlineMenu size={22} />
+          <div className=" p-16">
+            <AiOutlineMenu size={32} />
           </div>
         
         </div>
@@ -136,16 +143,16 @@ function Navbar() {
       </div>
       
         
-      <div className="god flex flex-col md:flex-row gap-7 mt-6">
-      <img src={ai} className="goat px-10 py-0 inline-flex items-center item-center  " />
-             <img src={mone} alt="" className="swag px-8 py-0 inline-flex items-center item-center  "/> 
+      <div className="god flex flex-col md:flex-row gap-0 mt-1">
+      
+            
             
              </div>
         
         
             
       <div
-        className={` ${menu ? "translate-x-0" : "-translate-x-full"} md:hidden flex flex-col absolute bg-[#faf6f6] left- top-100 font-large text-10xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-200 `}
+        className={` ${menu ? "translate-x-0" : "-translate-x-full"} md:hidden flex flex-col absolute bg-[#faf6f6] left- top-100 font-large text-10xl text-center pt-16 pb-4 gap-8 w-full h-fit transition-transform duration-200 `}
       >    
            
         <Link

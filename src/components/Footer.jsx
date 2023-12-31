@@ -76,9 +76,7 @@ const Footer = () => {
           
           
         </div>
-        <video controls autoPlay className="neg">
-            <source src={neg} type="" />
-          </video>
+        
       </div>
   
       
