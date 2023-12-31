@@ -12,7 +12,7 @@ const CoursesCard = (props) => {
       <div>
        
           {props.title}
-          <button className=" he bg-[#80df80] py-4"> <spam className="ki py-2 px-32 gap-6">
+          <button className=" he bg-[#80df80] py-4"> <spam className="ki py-2 px-12 text-xl  mb- mt-8   hover:text-[#f4f5f4] transition-all cursor-pointer">
    <b> Web Development </b> </spam></button> 
      
         <p className="text-lightText text-center md:text-start">
