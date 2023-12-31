@@ -17,7 +17,7 @@ import hom from "../assets/hom.svg";
 import knog from "../assets/knog.svg";
 import mone from "../assets/images/mone.png";
 import wha  from "../assets/images/wha.jpg";
-import bar  from "../assets/images/barcode.jpg";
+import bar  from "../assets/images/bar.jpg";
 import logo  from "../assets/images/logoo.png";
 import ai from "../assets/ai4all.svg";
 

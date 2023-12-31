@@ -2,11 +2,7 @@
     height: 100%;
     width: 100%;
 }
-.mo{
-    height: 35%;
-    width: 35%; 
-    
-}
+
 .no{
     height: 30%;
     width: 22%; 
@@ -14,3 +10,11 @@
   
 }
 
+.mo{
+    height: 30%;
+    width: 42%;
+}
+.ap{
+    height: 20%;
+    width: 52%;
+}

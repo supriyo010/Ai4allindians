@@ -6,12 +6,15 @@ const CoursesCard = (props) => {
   return (
     <div className=" flex flex-col items-center justify-between bg-[#e6f8e6] border-2 border-lightText md:border-none md:w-2/5 p-5 cursor-pointer rounded-lg hover:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] transition-all">
       <div className=" w-3/5">
+        
         <img src={props.img} alt="img" />
       </div>
       <div>
-        <h3 className="font-semibold text-lg text-center my-5">
+       
           {props.title}
-        </h3>
+          <button className=" he bg-[#80df80] py-4"> <spam className="ki py-2 px-32 gap-6">
+   <b> Web Development </b> </spam></button> 
+     
         <p className="text-lightText text-center md:text-start">
         In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.
 

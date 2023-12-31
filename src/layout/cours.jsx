@@ -8,8 +8,8 @@ return(
 <div className=" flex flex-col items-center justify-between bg-[#e6f8e6] border-2 border-lightText md:border-none md:w-2/5 p-5 cursor-pointer rounded-lg hover:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] transition-all">
       <div className=" w-5/5">
   <img src={ digitalImg} alt="" title="ui/ux design" className="" />
-  <spam className="ki py-2 px-2 gap-6">
-   <b>Digital Marketing</b> </spam>
+  <button className=" he bg-[#80df80] py-4"> <spam className="ki py-2 px-32 gap-6">
+   <b>   Digital Marketing</b> </spam></button>                                  
  
         <p className="text-lightText text-center md:text-start">
         Enroll in this Graphic Design course to acquire knowledge to create graphics, and manipulate images and motions using Photoshop. Learn to design visual content to solve for real-time problems for free online.

@@ -19,7 +19,7 @@ const Courses = () => {
       <Heading title1="Our" title2="Courses" />
 
       <div className=" flex flex-wrap justify-center gap-6 mt-6">
-        <CoursesCard img={webImg} title="Web Development" />
+        <CoursesCard img={webImg} title="" />
         <Course src img={youimageImg} title="ui/ux design" />
          <Cous img={appImg} title="App Development"/>
         <Crse img={graphicImg} title="Graphic Designer" />
@@ -29,7 +29,7 @@ const Courses = () => {
       </div>
       
       <div className=" flex flex-col items-center md:px-12 px-5 my-10 gap-4  ">
-      <h1 className='text-4xl font-bold px-6 py-6 '> Sample  <a className='text-green-400'>Certificate</a></h1>
+      <h1 className='text-4xl font-bold px-6 py-6 '> Sample  <a className='text-[#307430]'><i>Certificate</i></a></h1>
 <div className="flex flex-col md:flex-row gap-7 mt-6 ">
  
 

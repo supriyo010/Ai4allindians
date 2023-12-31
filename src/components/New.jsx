@@ -9,6 +9,7 @@ import map from "../assets/images/map.png";
 import pat from "../assets/pat.svg";
 import patt from "../assets/patt.svg";
 import hed from "../assets/images/hed.png";
+import wha  from "../assets/images/wha.jpg";
 
 const New = () => {
     return (
@@ -22,16 +23,20 @@ const New = () => {
               <li><a href="https://www.linkedin.com/in/ai4all-indians/"><img src={din} alt="" className=" btn btn-floating m-1"/></a></li>
               <li><a href="https://www.facebook.com/profile.php?id=61554277933997"><img src={face} alt="" className=" btn btn-floating m-1"/></a></li>
               <li><a href="https://twitter.com/ai4all_india"><img src={twwe} alt="" className=" btn btn-floating m-1"/></a></li>
+              
             </ul>
+            <img align="right" src={wha} alt="" className="ap py- px-6  "/>
           </div>
+        
       
         </div>
         <img align="right" src={hed} alt="" className="no py- px-2 "/>
         <div className=" flex flex-col items-center justify-between   "> 
        <a href="https://maps.app.goo.gl/RVJv4vLMmtC6GY9w9"> <img align="left" src={map} alt="" className="mo  py-6 px-5 " />
       
-       <img align="right" src={pat} alt="" className="no py-  px-6" />
-       <img align="right" src={patt}  className="no py-  px-6 " />
+       < a href="https://" ><img align="right" src={pat} alt="" className="no py-  px-6" /></a>
+       < a href="https://" ><img align="right" src={patt}  className="no py-  px-6 " /></a>
+
        </a>
     
       
