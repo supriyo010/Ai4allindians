@@ -48,6 +48,13 @@ const About = () => {
 
           
         </p>
+        <p className=" text-lightText"><img src="https://i.ibb.co/5KwcNqr/1702408917136.jpg" className="png1" />
+        
+        <h1 className= "animate-pulse">AVISHEK MUKHERJEE<h1 className= "animate-bounce" color="red"><b><i></i></b></h1> </h1>
+
+          
+        </p>
+        
         
        
         <Link to="contact" spy={true} smooth={true} duration={500}>

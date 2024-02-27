@@ -7,12 +7,17 @@
     height: 30%;
     width: 22%; 
    display: inline;
+   object-fit: contain;
+   aspect-ratio: 3/2;
+   align-self: auto;
+   
   
 }
 
 .mo{
     height: 30%;
     width: 42%;
+  
 }
 .ap{
     height: 20%;
