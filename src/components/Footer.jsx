@@ -67,22 +67,20 @@ const Footer = () => {
             </div>
         </div>
 
-        <div className=" mt-4 md:mt-0">
-          <Link to="/" className=" font-semibold text-2xl p-1 cursor-pointer">
-          Ai4ALL
-          
-      
-          </Link>
-          
-          
-        </div>
+       
+
+  <div className="mt-2 text-sm">
+    Address: 123 Main Street, City, Country <br />
+    Contact No: +1234567890 <br />
+    Email: info@ai4all.com
+  </div>
+</div>
         
       </div>
   
       
      
-    
-    </div>
+ 
   );
 };
 

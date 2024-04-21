@@ -47,7 +47,7 @@ const Contact = () => {
           </div>
         </form>
 
-        <iframe align="right" className="chat-bot position-fixed py-6 px-1" width="350" height="380"  allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/13847e11-c714-4911-bd7f-a8a87da92748"></iframe>
+        
         <div className=" w-full md:w-2/4">
           <img src={img} alt="img" />
         
