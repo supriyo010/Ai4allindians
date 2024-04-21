@@ -37,8 +37,8 @@ const About = () => {
         </p>
         
          
-        <p className=" text-lightText"><img src="https://i.ibb.co/tZRNmQm/tinywow-profile-photo-40988806-1.png" className="png1" />
-        <h1 className= "animate-pulse">SUPRIYA GHAR <h1 className= "animate-bounce" color="red"><b><i>INSIGHT ILLUMINATOR</i></b> </h1> </h1>
+        <p className=" text-lightText"><img src="" className="png1" />
+        <h1 className= "animate-pulse">SAYAN SARKAR <h1 className= "animate-bounce" color="red"><b><i>INSIGHT ILLUMINATOR</i></b> </h1> </h1>
 
           
         </p>
@@ -50,7 +50,7 @@ const About = () => {
         </p>
         <p className=" text-lightText"><img src="https://i.ibb.co/5KwcNqr/1702408917136.jpg" className="png1" />
         
-        <h1 className= "animate-pulse">AVISHEK MUKHERJEE<h1 className= "animate-bounce" color="red"><b><i></i></b></h1> </h1>
+        <h1 className= "animate-pulse">AVISHEK MUKHERJEE<h1 className= "animate-bounce" color="red"><b><i> DATA ANALYST</i></b></h1> </h1>
 
           
         </p>

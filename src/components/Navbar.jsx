@@ -38,8 +38,8 @@ function Navbar() {
         <div >
           
         <div className="box flex flex-col items-center justify-between   ">
-        <img src={ai} className="mobilel py-  px-0  mb-   "/>
-        <img src={mone} alt="" className="mobile px-0 py-  inline-flex items-center "/> 
+        <img src={ai} className="mobilel py-2  px-0  mb-   "/>
+      
         </div>
         <Link to="/" className=" font-semibold text-xl p-30  cursor-pointe  flex flex-col md:flex-col gap-7 mt-6">
             

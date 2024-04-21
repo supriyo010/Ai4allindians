@@ -1,12 +1,12 @@
 import React from "react";
 
-const ReviewCard = (props) => {
+const ReviewCard2 = (props) => {
   return (
     <div className=" w-full md:w-1/3 bg-white border-2 border-lightText md:border-none p-2 rounded-lg hover:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] transition-all">
       <div>
         <p className=" text-lightText">
-        Great initiative by a student. One day it will be a big platform for everyone to learn such a thing which is not taught in any institute.
-God bless you. ❤️
+
+        Unlock your new tech skills.. very interesting nd easy learning must try
         </p>
       </div>
 
@@ -17,4 +17,4 @@ God bless you. ❤️
   );
 };
 
-export default ReviewCard;
+export default ReviewCard2;

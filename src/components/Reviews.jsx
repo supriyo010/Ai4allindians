@@ -1,9 +1,12 @@
 import React from "react";
 import Heading from "../layout/Heading";
 import ReviewCard from "../layout/ReviewCard";
-import img1 from "../assets/images/pic1.png";
-import img2 from "../assets/images/pic2.png";
-import img3 from "../assets/images/pic3.png";
+
+import img1 from "../assets/images/Screenshot 2024-04-21 202205.png";
+import img2 from "../assets/images/Screenshot 2024-04-21 202033.png";
+import img3 from "../assets/images/Screenshot 2024-04-21 201726.png";
+import ReviewCard1 from "../layout/ReviewCard1";
+import ReviewCard2 from "../layout/ReviewCard2";
 
 const Reviews = () => {
   return (
@@ -12,9 +15,9 @@ const Reviews = () => {
 
       <div className=" flex flex-col md:flex-row gap-7 mt-6">
         <ReviewCard img={img1} />
-        <ReviewCard img={img2} />
-        <ReviewCard img={img3} />
-        <ReviewCard img={img3} />
+        <ReviewCard1 img={img2} />
+        <ReviewCard2 img={img3} />
+   
        
       </div>
     </div>
