@@ -26,9 +26,12 @@ const Home = () => {
 
         </p>
 
-        <Link to="contact" spy={true} smooth={true} duration={500} className="gap-10 flex-auto">
-          <Button title="Contact Us" />
+        <Link to="" spy={true} smooth={true} duration={500} className="gap-10 flex-auto">
         </Link>
+          <Button title="Schedule A Demo" />
+         <a href=" https://drive.google.com/file/d/1R8rvO5PrIxUR-ScVFONDPvWprnBOttCR/view?usp=sharing"> <Button title="Download Digishield module" /></a>
+
+       
       </div>
 
      <div class="container flex-auto gap-0 position-center px- py-">

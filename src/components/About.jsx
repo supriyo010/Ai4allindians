@@ -37,7 +37,7 @@ const About = () => {
         </p>
         
          
-        <p className=" text-lightText"><img src="" className="png1" />
+        <p className=" text-lightText"><img src="https://i.ibb.co/BC9cj2C/Whats-App-Image-2024-04-22-at-17-57-14-1d53037c.jpg" className="png1" />
         <h1 className= "animate-pulse">SAYAN SARKAR <h1 className= "animate-bounce" color="red"><b><i>INSIGHT ILLUMINATOR</i></b> </h1> </h1>
 
           
