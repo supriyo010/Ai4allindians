@@ -71,7 +71,7 @@ const Footer = () => {
 
   <div className="mt-2 text-sm">
     Address: 101, Netaji Subhash Road, A-Zone, Durgapur, West Bengal 713204 <br />
-    Contact No: 9474884199 <br />
+    Contact No: 7908680668 <br />
     Email: ai4all.linkedin@gmail.com <br />
   </div>
 </div>

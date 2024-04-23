@@ -15,10 +15,10 @@ return(
         This Mobile App Development course is the course for someone who wants to learn Mobile App development from scratch. 
           </p>
           <p className="text-lightText text-center md:text-start">
-          In this Mobile App Development Course you will learn fundamentals of mobile app development through android apps and tools used for creating them. You have an added benefit to learn how to create a calculator app from scratch by the end of this Mobile App Development course.</p>
+          Embark on our App Development course to master mobile app design and development using iOS and Android platforms, covering programming languages, UI/UX principles, API integration, and deployment strategies, enabling you to create innovative mobile applications.</p>
         
           </div>
-          <a href="https://www.simplilearn.com/free-app-development-course-skillup">    <Button title="GO TO" /></a>
+          <a href="https://forms.gle/5Fqh96EJbfSWVfTH6">    <Button title="GO TO" /></a>
           </div>
            
 

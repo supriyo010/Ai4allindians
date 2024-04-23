@@ -15,10 +15,10 @@ return(
         Enroll in this Graphic Design course to acquire knowledge to create graphics, and manipulate images and motions using Photoshop. Learn to design visual content to solve for real-time problems for free online.
           </p>
           <p className="text-lightText text-center md:text-start">
-          There are 26 modules to explore, all created by Google trainers, packed full of practical exercises and real-world examples to help you turn knowledge into action</p>
+          Join our Digital Marketing course to explore strategies for SEO, SEM, social media marketing, email marketing, analytics, and content creation, empowering you to drive effective online campaigns and achieve business growth.</p>
         
           </div>
-        <a href="https://skillshop.exceedlms.com/student/collection/654330-digital-marketing?locale=en-GB">  <Button title="GO TO" /></a>
+        <a href="https://forms.gle/K88254HVfTsYsaDp7">  <Button title="GO TO" /></a>
           </div>
            
 

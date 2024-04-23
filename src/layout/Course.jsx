@@ -17,11 +17,11 @@ return(
         Master the art of UI/UX Design and create intuitive, visually appealing interfaces. 
           </p>
           <p className="text-lightText text-center md:text-start">
-          Our course covers the latest trends and best practices in design thinking, user research, and prototyping
+          Enroll in our UI/UX Design course to learn user interface and experience design principles, wireframing, prototyping, usability testing, and industry-standard tools, empowering you to create intuitive and visually appealing digital experiences.
           </p>
         
           </div>
-          <a href="https://www.coursera.org/specializations/ui-ux-design">   <Button title="GO TO" /></a>
+          <a href="https://forms.gle/BVrghB6dTzpuvR82A">   <Button title="GO TO" /></a>
           </div>
            
      

@@ -16,18 +16,14 @@ const CoursesCard = (props) => {
    <b> Web Development </b> </spam></button> 
      
         <p className="text-lightText text-center md:text-start">
-        In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.
-
-First, you'll build a cat photo app to learn the basics of HTML and CSS. Later, you'll learn modern techniques like CSS variables by building a penguin, and best practices for accessibility by building a web form.
-
-
+        Join our Comprehensive Web Development course where you'll master HTML, CSS, JavaScript, front-end frameworks, back-end development with Node.js, database integration, and deployment strategies, with hands-on projects and expert guidance, preparing you for a successful career in web development.
           </p>
           <p className="text-lightText text-center md:text-start">
-          Finally, you'll learn how to make webpages that respond to different screen sizes by building a Twitter card with Flexbox, and a complex blog layout with CSS Grid.
+
           </p>
        
       </div>
-    <a href="https://www.coursera.org/courses?query=web%20deve">  <Button title="GO TO" /></a>
+    <a href="https://forms.gle/99UJCGd9CicrpoEC8">  <Button title="GO TO" /></a>
     </div>
   );
 };

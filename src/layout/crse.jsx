@@ -14,10 +14,10 @@ return(
         Master the basics of digital marketing with our free course accredited by Interactive Advertising Bureau Europe and The Open University. 
           </p>
           <p className="text-lightText text-center md:text-start">
-          There are 26 modules to explore, all created by Google trainers, packed full of practical exercises and real-world examples to help you turn knowledge into action</p>
+          Enroll in our Graphics Design course to delve into visual communication, typography, image editing, branding, and industry-standard software tools, honing your skills to craft captivating designs for print and digital media.</p>
         
           </div>
-          <a href="https://www.mygreatlearning.com/academy/learn-for-free/courses/intro-to-graphic-design-with-photoshop">     <Button title="GO TO" /> </a>
+          <a href="https://forms.gle/sxfLEctJPpZ4hMpCA">     <Button title="GO TO" /> </a>
           </div>
            
 
